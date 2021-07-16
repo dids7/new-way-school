@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Way English School</title>
+  <link rel="stylesheet" href="english.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/MD-NW.png" /></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-window-close" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="english.html">Home</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="about.html">About</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li> -->
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+  </section>
+
+  <!------ about us content ------>
+
+  <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1>We are the best english school</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
+          commodi, ipsum fugit hic ipsam assumenda facere officiis repellendus
+          a, deleniti, possimus pariatur laborum sint odit cumque? Facilis
+          necessitatibus dolor corrupti.
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </p>
+      </div>
+      <div class="about-col">
+        <img src="images/logo-cores.jpg" />
+      </div>
+    </div>
+  </section>
+
+  <!------ Footer ------>
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam amet
+      suscipit quod. Dolore sint dolores accusamus reiciendis?<br />Quam,
+      animi cupiditate consequatur illum distinctio quas porro. Ea blanditiis
+      doloribus harum quae.
+    </p>
+    <div class="icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+    <p>Made with <i class="fas fa-heart"></i> by Diego Rodrigues</p>
+  </section>
+
+  <!----- JaveScript menu----->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>

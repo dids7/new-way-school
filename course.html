@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Way English School</title>
+  <link rel="stylesheet" href="english.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/MD-NW.png" /></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fas fa-window-close" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="english.html">Home</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="about.html">About</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li> -->
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Courses</h1>
+  </section>
+
+  <!------ Course ------>
+
+  <section class="course">
+    <h1>Cursos Que Ofereçemos</h1>
+    <p>
+      Nossos cursos são especializados e personalizados ao gosto do aluno, com material americano atualizado todo ano,
+      aulas presenciais ou on-line e o método X.
+    </p>
+
+    <div class="row">
+      <div class="course-col">
+        <h3>Padrão</h3>
+        <p>
+          Curso de Inglês Padrão pra quem busca passar em alguma entrevista ou vestibular, ou para viajar para o
+          exterior. Usamos o material American Inside Out, onde o aluno já tem contato diálogos para
+          aprender. Geramos certificados ao término de cada livro.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Aviação</h3>
+        <p>
+          Se você está buscando a area da aviação, seja como piloto(a) ou comissário(a), aqui é o lugar certo! Temos
+          mais de 100 alunos que conseguiram realizar esse objetivo, seja passando na prova da ICAO ou na entrevista das
+          maiores cias aereas do mundo.
+        </p>
+      </div>
+      <div class="course-col">
+        <h3>Terceira Idade</h3>
+        <p>
+          Agora se você é do time que ja realizou tudo na vida, trabalhou e juntou seu dinheiro, temos o curso certo
+          para você também. Focado em diálogos e conversações, esse curso visa viagens ao exterior, onde você conseguirá
+          se virar em qualquer país.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-------- facilities -------->
+
+  <!-- <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quis
+      vero officia sed iure laboriosam, quas impedit qui dolor, libero id
+      fugiat perferendis nemo ea sapiente sequi veniam? Alias, tempore.
+    </p>
+
+    <div class="row">
+      <div class="facilities-col">
+        <img src="images/faxada.jpg" />
+        <h3>Faxada 1</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+          neque cupiditate unde dolor nemo ducimus, voluptatum nihil dolorem.
+          Deleniti consequuntur sequi illum impedit ratione inventore nihil
+          commodi, perspiciatis libero corrupti.
+        </p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/faxada2.jpg" />
+        <h3>Faxada 2</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+          neque cupiditate unde dolor nemo ducimus, voluptatum nihil dolorem.
+          Deleniti consequuntur sequi illum impedit ratione inventore nihil
+          commodi, perspiciatis libero corrupti.
+        </p>
+      </div>
+      <div class="facilities-col">
+        <img src="images/faxada3.jpg" />
+        <h3>Faxada 3</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+          neque cupiditate unde dolor nemo ducimus, voluptatum nihil dolorem.
+          Deleniti consequuntur sequi illum impedit ratione inventore nihil
+          commodi, perspiciatis libero corrupti.
+        </p>
+      </div>
+    </div>
+  </section> -->
+
+  <!------ Footer ------>
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam amet
+      suscipit quod. Dolore sint dolores accusamus reiciendis?<br />Quam,
+      animi cupiditate consequatur illum distinctio quas porro. Ea blanditiis
+      doloribus harum quae.
+    </p>
+    <div class="icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin-in"></i>
+    </div>
+    <p>Made with <i class="fas fa-heart"></i> by Diego Rodrigues</p>
+  </section>
+
+  <!----- JaveScript menu----->
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
